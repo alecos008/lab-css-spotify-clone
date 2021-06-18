@@ -6,3 +6,142 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+h1 {
+    font-size: 6rem;
+}
+h2 {
+    font-size: 3rem;
+}
+h3 {
+    font-size: 2.5rem;
+}
+h4 {
+    font-size: 1.8rem;
+}
+p{
+    font-size: 1.8rem;
+}
+
+.hero-section {
+    background-image: url('/landing.jpg');
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    row-gap: 5vh;
+}
+.logo {
+    padding: 0.7vh 0 0.7vh 2vh;
+ }   
+a {
+    text-decoration: none;
+    color: black;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    background-color: white;
+    height: 10vh;
+}
+.navbar-ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 2vw;
+    padding-left: 60vw;
+    list-style: none;
+}
+.hero-section > h1, p {
+    color: white;
+    text-align: center;
+    
+}
+.second-section {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+
+}
+.second-section > h2 {
+    margin: 0 auto;
+    padding-top: 1vh;
+
+}   
+.block-of-blocks {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding-top: 10vh;
+    column-gap: 7vw;
+}
+.text-block {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+    align-items: center;
+}
+.text-block > p {
+    color: grey;
+  
+}
+.text-block > h3 {
+    text-align: center;
+    color: #00B172;
+}
+.third-section {
+    height: 90vh;
+   
+}
+.third-section-block {
+    width: 95vw;
+    margin-left: 2.5vw;
+    background-color: #00B172;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.third-section> h2{
+    width: 40%;
+    color: white;
+    margin: 5vh 0 -5vh 5vw;
+
+}
+.third-block-text {
+    width: 40vw;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5vh;
+    margin: 10vh 0 0 10vw;
+
+}
+.third-inner-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+    align-items: flex-start;
+    width: 40vw;
+    
+}
+
+.third-inner-text > h4, p {
+    color: white;
+    text-align: justify;
+}
+
+
+.logo-icon-section {
+    margin: 0 auto;
+}
+
+
