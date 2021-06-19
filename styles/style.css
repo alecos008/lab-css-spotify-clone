@@ -113,7 +113,7 @@ a {
 .third-section> h2{
     width: 40%;
     color: white;
-    margin: 5vh 0 -5vh 5vw;
+    margin: 5vh 0 -6vh 5vw;
 
 }
 .third-block-text {
@@ -139,9 +139,10 @@ a {
     text-align: justify;
 }
 
-
-.logo-icon-section {
-    margin: 0 auto;
+#spoti-logo-icon {
+    margin-left: -25vw;
 }
-
+#spoti-app-img {
+    padding-right: 7vw;
+}
 
